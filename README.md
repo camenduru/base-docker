@@ -4,10 +4,9 @@
 
 ## 🐳 Docker
 
-| Docker | Info
-| --- | --- |
-https://hub.docker.com/r/camenduru/base | base
-
+ ```
+ docker build https://github.com/camenduru/base-docker/raw/main/Dockerfile
+ ```
 
 ## Main Repo
 https://gitlab.com/nvidia/container-images/cuda/-/tree/master/dist/12.2.0/ubuntu2204
