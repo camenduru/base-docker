@@ -8,3 +8,6 @@
 | --- | --- |
 https://hub.docker.com/r/camenduru/base | base
 
+
+## Main Repo
+https://gitlab.com/nvidia/container-images/cuda/-/tree/master/dist/12.2.0/ubuntu2204
