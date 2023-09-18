@@ -6,6 +6,8 @@
 
 ```
 docker build https://github.com/camenduru/base-docker/raw/main/Dockerfile  -t camenduru/base:latest
+```
+```
 docker run --gpus all camenduru/base:latest
 ```
 
