@@ -1,7 +1,7 @@
 FROM nvcr.io/nvidia/cuda:12.2.0-base-ubuntu22.04
 
 RUN adduser --disabled-password --gecos '' user && mkdir /content && chown -R user:user /content && \
-	apt-get update -y && apt-get install -y --no-install-recommends aria2 wget git git-lfs python3-pip python-is-python3
+	apt-get update -y && apt-get install -y --no-install-recommends libgl1 libglib2.0-0 aria2 wget git git-lfs python3-pip python-is-python3
 
 USER user
 WORKDIR /content
