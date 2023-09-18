@@ -7,7 +7,7 @@ RUN apt-get update -y && \
 	pip install xformers==0.0.20 triton==2.0.0 && \
 	adduser --disabled-password --gecos '' user && \
 	mkdir /content && \
-	chown -R user:user /content && \
+	chown -R user:user /content
 
 WORKDIR /content
 USER user
