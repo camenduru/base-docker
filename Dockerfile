@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.2.0-base-ubuntu22.04
+FROM nvcr.io/nvidia/cuda:12.2.0-devel-ubuntu22.04
 
 RUN adduser --disabled-password --gecos '' user && mkdir /content && chown -R user:user /content && \
 	apt-get update -y && apt-get install -y aria2 wget git git-lfs python3-pip python-is-python3
